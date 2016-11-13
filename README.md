@@ -31,6 +31,7 @@ Creates a list of data useful for data manipulation.
 #### Planned
 * Create a core for the stack and queue data structures to build off (Extends).
 * Create the ability to drop the first entered items if the list exceeds its capacity on a list.push operation
+* Intelligent merging
 
 ## Tree
 The tree data structure will be useful for searching, sorting, heaps, and organization.
