@@ -18,6 +18,7 @@ Creates a grid like data structure, useful for transitioning data to an UI.
 #### Features
 * Takes in a 1-dimensional collection and is able to automatically format it into a grid of items.
 * Can automatically output sizings for creating row and columns with CSS libraries like Bootstrap and Material CSS.
+
 #### Planned
 * Abstract the sizing further to allow compatbility with more grid CSS libraries
 
@@ -26,6 +27,7 @@ Creates a list of data useful for data manipulation.
 #### Features
 * Expands upon the existing OctoberCMS collection
 * Allows for a limit to the list
+
 #### Planned
 * Create a core for the stack and queue data structures to build off (Extends).
 * Create the ability to drop the first entered items if the list exceeds its capacity on a list.push operation
