@@ -4,12 +4,12 @@ OctoberCMS Data Structures. Useful for more complex data manipulation and render
 ## Structures
 * Grid
 * List
+* Enum
 
 ## Planned Structures
 * Tree
 * Heap
 * Structure
-* Enum
 * Stack
 * Queue
 
@@ -27,11 +27,16 @@ Creates a list of data useful for data manipulation.
 #### Features
 * Expands upon the existing OctoberCMS collection
 * Allows for a limit to the list
+* Create the ability to drop the first entered items if the list exceeds its capacity on a list.push operation
+* Intelligent merging
 
 #### Planned
 * Create a core for the stack and queue data structures to build off (Extends).
-* Create the ability to drop the first entered items if the list exceeds its capacity on a list.push operation
-* Intelligent merging
+
+## Enum
+Useful to abstract away state based String comparisons
+#### Features
+* Enum
 
 ## Tree
 The tree data structure will be useful for searching, sorting, heaps, and organization.
@@ -54,11 +59,6 @@ The heap is used for efficient  finding min, maxes, and sorting.
 A play off of C++ structures. Allows for creation of a data structure with X fields.
 #### Planned
 * Basic structures. Think of models without the need for a database
-
-## Enum
-Useful to abstract away state based String comparisons
-#### Planned
-* Enum
 
 ## Stack
 Great for parsing and reversing orders
